@@ -1,0 +1,64 @@
+body {
+  position: relative;
+}
+.text-justify
+{
+	text-align:justify;
+}
+.img-responsive-full
+{
+	width:100%;
+}
+.margin-b-xs{margin-bottom:8px;}
+.margin-b-sm{margin-bottom:16px;}
+.margin-b-md{margin-bottom:24px;}
+.margin-b-lg{margin-bottom:32px;}
+.nopadding
+{
+	padding:0 !important;
+}
+.carousel-caption-dark
+{
+	color:black;
+	text-shadow:rgba(255, 255, 255, 0.6) 0 1px 2px;
+}
+#navbarMain
+{
+	
+}
+#navbarMain .navbar-brand img
+{
+	width:32px;
+	margin-top:-6px;
+}
+#banners
+{
+	margin-top:50px;
+}
+#banners .item img
+{
+	width:100%;
+}
+#products .thumb img
+{
+	width:100%;
+}
+#services .jumbotron
+{
+	background:url('../img/jumbotron.bg.jpg');
+	background-size:cover;
+	color:black;
+	text-shadow:rgba(205, 255, 255, 0.6) 0 1px 3px;
+}
+#faqs .tab-pane
+{
+	padding-top:1em;
+}
+
+/* fix bootstrap collapse header not full length*/
+.tab-pane .panel-title a
+{
+	display:block;
+	width:100%;
+	text-decoration:none;
+}

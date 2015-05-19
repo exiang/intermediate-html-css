@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Bootstrap 101 Template</title>
+
+	<!-- Bootstrap -->
+	<link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- vendors -->
+	<link href="vendors/jasny-bootstrap/css/jasny-bootstrap.min.css" rel="stylesheet">
+	<!-- app -->
+	<link href="assets/css/style.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
+	<style>
+	html, body {
+		height: 100%;
+	}
+
+	body {
+		padding: 50px 0 0 0;
+	}
+
+	.navbar-toggle {
+		float: left;
+		margin-left: 15px;
+	}
+
+	@media (min-width: 0) 
+	{
+		.navbar-toggle {
+			display: block; /* force showing the toggle */
+		}
+	}
+
+	@media (min-width: 992px) 
+	{
+		body 
+		{
+			padding: 0;
+		}
+		
+		.navbar 
+		{
+			right: auto;
+			background: none;
+			border: none;
+		}
+	}</style>
+</head>
+<body>
+	
+	
+	<!-- container -->
+	<div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
+	<a class="navmenu-brand" href="#">Project name</a>
+	<ul class="nav navmenu-nav">
+		<li><a href="#">Link 1</a></li>
+		<li><a href="#">Link 2</a></li>
+		<li><a href="#">Link 3</a></li>
+	</ul>
+	</div>
+
+    <div class="navbar navbar-default navbar-fixed-top">
+      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="container">
+		<h1 class="page-header">Jasny</h1>
+		<p><a href="http://jasny.github.io/bootstrap/">http://jasny.github.io/bootstrap/</a></p>
+		
+		<h2>Off canvas menu</h2>
+		<p>The offcanvas plugin allows you to hide an element from sight and than show it by moving either that or any other element. It's intended to be used for off canvas navigation, like push menus</p>
+		
+		<h2>Input mask</h2>
+		<input type="text" class="form-control" data-mask="999999-99-9999" placeholder="IC Number" /><br />
+		<input type="text" class="form-control" data-mask="999-99-999-9999-9" placeholder="ISBN" />
+    </div>
+    <!-- /.container -->
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+	<script src="vendors/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
+	
+	
+	
+	<script type="text/javascript">
+		$(document).ready(function ($) {
+			
+		});
+	</script>
+	
+	<script>
+	</script>
+	
+</body>
+</html>

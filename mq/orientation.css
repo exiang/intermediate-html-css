@@ -1,0 +1,21 @@
+@media(orientation:landscape)
+{
+
+	body
+	{
+		background:lime;
+	}
+
+	#iPortrait{display:none;}
+}
+
+@media(orientation:portrait)
+{
+
+	body
+	{
+		background:yellow;
+	}
+
+	#iLandscape{display:none;}
+}
