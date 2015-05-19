@@ -1,0 +1,43 @@
+div{display:none;}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+  /* some CSS here */
+	div{display:none;}
+	#iAmPhone{display:block;}
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+  /* some CSS here */
+	div{display:none;}
+	#iAmPhone{display:block;}
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px){
+  /* some CSS here */
+	div{display:none;}
+	#iAmPhone{display:block;}
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+  /* some CSS here */
+	div{display:none;}
+	#iAmPhone{display:block;}
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  /* some CSS here */
+	div{display:none;}
+	#iAmTablet{display:block;}
+}
+
+/* #### Desktops #### */
+@media screen and (min-width: 1025px){
+  /* some CSS here */
+	div{display:none;}
+	#iAmDesktop{display:block;}
+}
