@@ -1,0 +1,18 @@
+
+<ul class="nav navbar-nav">
+	<li><a href="#products">Product</a></li>
+	<li><a href="#services">Services</a></li>
+	<li><a href="#news">News</a></li>
+	<li><a href="#members">Members</a></li>
+	<li><a href="#faqs">FAQs</a></li>
+	<li><a href="#contact">Contact</a></li>
+</ul>
+
+<form class="navbar-form navbar-right" role="search">
+	<div class="input-group input-group-sm">
+		<input type="text" class="form-control" placeholder="Search">
+		<span class="input-group-btn">
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</span>
+	</div>
+</form>

@@ -1,0 +1,68 @@
+<div id="products">
+<div class="row">
+	<div class="col-lg-12">
+		<h1 class="page-header">Products</h1>
+	</div>
+
+	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+	<a class="thumbnail" href="assets/img/apple.jpg" data-toggle="lightbox" data-gallery="multiimages">
+		<img class="img-responsive" src="assets/img/apple.thumb.jpg" alt="">
+	</a>
+	</div>
+	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+	<a class="thumbnail" href="assets/img/orange.jpg" data-toggle="lightbox" data-gallery="multiimages">
+		<img class="img-responsive" src="assets/img/orange.thumb.jpg" alt="">
+	</a>
+	</div>
+	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+	<a class="thumbnail" href="assets/img/grape.jpg" data-toggle="lightbox" data-gallery="multiimages">
+		<img class="img-responsive" src="assets/img/grape.thumb.jpg" alt="">
+	</a>
+	</div>
+	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+	<a class="thumbnail" href="assets/img/kiwi.jpg" data-toggle="lightbox" data-gallery="multiimages">
+		<img class="img-responsive" src="assets/img/kiwi.thumb.jpg" alt="">
+	</a>
+	</div>
+	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+	<a class="thumbnail" href="assets/img/stawberry.jpg" data-toggle="lightbox" data-gallery="multiimages">
+		<img class="img-responsive" src="assets/img/stawberry.thumb.jpg" alt="">
+	</a>
+	</div>
+	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+	<a class="thumbnail" href="assets/img/peach.jpg" data-toggle="lightbox" data-gallery="multiimages">
+		<img class="img-responsive" src="assets/img/peach.thumb.jpg" alt="">
+	</a>
+	</div>
+	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+	<a class="thumbnail" href="assets/img/rambutan.jpg" data-toggle="lightbox" data-gallery="multiimages">
+		<img class="img-responsive" src="assets/img/rambutan.thumb.jpg" alt="">
+	</a>
+	</div>
+	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+	<a class="thumbnail" href="assets/img/banana.jpg" data-toggle="lightbox" data-gallery="multiimages">
+		<img class="img-responsive" src="assets/img/banana.thumb.jpg" alt="">
+	</a>
+	</div>
+	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+	<a class="thumbnail" href="assets/img/watermelon.jpg" data-toggle="lightbox" data-gallery="multiimages">
+		<img class="img-responsive" src="assets/img/watermelon.thumb.jpg" alt="">
+	</a>
+	</div>
+	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+	<a class="thumbnail" href="assets/img/durian.jpg" data-toggle="lightbox" data-gallery="multiimages">
+		<img class="img-responsive" src="assets/img/durian.thumb.jpg" alt="">
+	</a>
+	</div>
+	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+	<a class="thumbnail" href="assets/img/mangosteen.jpg" data-toggle="lightbox" data-gallery="multiimages">
+		<img class="img-responsive" src="assets/img/mangosteen.thumb.jpg" alt="">
+	</a>
+	</div>
+	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 thumb">
+	<a class="thumbnail" href="assets/img/mango.jpg" data-toggle="lightbox" data-gallery="multiimages">
+		<img class="img-responsive" src="assets/img/mango.thumb.jpg" alt="">
+	</a>
+	</div>
+</div>
+</div>

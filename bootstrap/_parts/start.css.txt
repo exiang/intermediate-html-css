@@ -1,0 +1,19 @@
+body {
+  position: relative;
+}
+.text-justify
+{
+	text-align:justify;
+}
+.img-responsive-full
+{
+	width:100%;
+}
+.margin-b-xs{margin-bottom:8px;}
+.margin-b-sm{margin-bottom:16px;}
+.margin-b-md{margin-bottom:24px;}
+.margin-b-lg{margin-bottom:32px;}
+.nopadding
+{
+	padding:0 !important;
+}

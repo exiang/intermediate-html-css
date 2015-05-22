@@ -1,0 +1,19 @@
+<link href="vendors/ekko-lightbox/ekko-lightbox.min.css" rel="stylesheet">
+<link href="vendors/ekko-lightbox/dark.css" rel="stylesheet">
+
+
+<script src="vendors/ekko-lightbox/ekko-lightbox.min.js"></script>	
+
+<script type="text/javascript">
+	$(document).ready(function ($) {
+
+		// delegate calls to data-toggle="lightbox"
+		$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+			event.preventDefault();
+			return $(this).ekkoLightbox({
+				always_show_close: true
+			});
+		});
+
+	});
+</script>
